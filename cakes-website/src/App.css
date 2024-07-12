@@ -3,14 +3,27 @@
 }
 
 h1 {
-    font-size: clamp(20px, 2vw, 40px);
-    color: var(--color-001);
+    font-size: clamp(30px, 3vw, 50px);
+    color: var(--color-black);
+    font-weight: 600;
   }
 
 h3 {
     color: var(--color-000);
-    font-weight: 500;
-    font-size: clamp(12px, 1vw, 15px);
+    font-weight: 400;
+    font-size: clamp(18px, 2vw, 24px);
+  }
+
+  h4 {
+    color: var(--color-black);
+    font-weight: bolder;
+    font-size: clamp(14px, 2vw, 18px);
+  }
+
+  h5 {
+    color: var(--color-000);
+    font-weight: 400;
+    font-size: clamp(14px, 2vw, 18px);
   }
 
 a {
@@ -26,11 +39,12 @@ html,body {
     width: 100%;
     height: 100%;
     scroll-behavior: smooth;
-    background-color: var(--color-black);
-    overflow: hidden;
 }
 
 :root {
     --header-back: hsl(346.8, 77.2%, 49.8%);
     --font-color: whitesmoke;
-}
+    --color-black: black;
+    --color-000: rgb(58, 58, 58);
+    --color-001: rgba(185, 195, 204, 0.219);
+  }

@@ -1,6 +1,6 @@
 import React from "react"
 import { TopPanel } from "./topPanel"
-import { BottomPanel } from "./bottomPanel"
+import  BottomPanel  from "./bottomPanel"
 import { Footer } from "./footer"
 
 export function Main () {

@@ -4,21 +4,6 @@ main {
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 1rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.main {
-  margin-top: 100px;
-  width: 100%;
-  height: auto;
-  font-family: "Varela Round", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  padding: 1rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,26 +12,24 @@ main {
 
 .topPanel {
   width: 100%;
+  padding: 8rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .main-img {
-  width: 400px;
-  height: 400px;
-}
-
-.main-img img {
-  width: 100%;
-  height: 100%;
-
+  width: 600px;
+  height: 600px;
+  background: url(img/cake.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .description-container {
-  width: 30%;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,9 +37,16 @@ main {
   gap: 1rem;
 }
 
+.description-container a {
+  width: 100%;
+}
+
 .btn {
-  padding: 6px 12px;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
   background-color: var(--header-back);
   color: var(--font-color);
   border-radius: 6px;
+  cursor: pointer;
 }

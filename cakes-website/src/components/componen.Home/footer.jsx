@@ -1,10 +1,14 @@
 import React from "react"
-import { Link } from "react-router-dom"
 
 export function Footer () {
   return (
    <footer>
-    
+     <div className="footer-cake">
+        
+     </div>
+     <div className="footer-container"> 
+
+     </div>
    </footer>
   )
 }
