@@ -1,0 +1,62 @@
+main {
+  width: 100%;
+  height: auto;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.topPanel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.main-img {
+  width: 400px;
+  height: 400px;
+}
+
+.main-img img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.description-container {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 6px 12px;
+  background-color: var(--header-back);
+  color: var(--font-color);
+  border-radius: 6px;
+}
