@@ -1,7 +1,7 @@
 main {
   width: 100%;
   height: auto;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Harper", sans-serif;
   font-weight: 400;
   font-style: normal;
   display: flex;
@@ -17,12 +17,12 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .main-img {
-  width: 600px;
-  height: 600px;
+  width: 550px;
+  height: 550px;
   background: url(img/cake.jpg);
   background-size: cover;
   background-position: center;
@@ -49,4 +49,33 @@ main {
   color: var(--font-color);
   border-radius: 6px;
   cursor: pointer;
+}
+
+@media all and ( max-width: 1024px) {
+  .main-img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media all and ( max-width: 768px) {
+  .topPanel {
+    flex-direction: column;
+  }
+
+  .main-img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .description-container {
+    width: 80%;
+  }
+}
+
+@media all and ( max-width: 425px) {
+  .main-img {
+    width: 300px;
+    height: 300px;
+  }
 }

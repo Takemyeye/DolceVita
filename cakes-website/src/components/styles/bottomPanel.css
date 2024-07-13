@@ -1,7 +1,7 @@
 .bottomPanel {
     width: 100%;
-    height: 100vh;
-    font-family: "Varela Round", sans-serif;
+    min-height: 100vh;
+    font-family: "Harper", sans-serif;
     font-weight: 400;
     font-style: normal;
     display: flex;
@@ -22,15 +22,14 @@
 }
 
 .container {
-    width: 70%;
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
 }
 
 .cake-container {
-    width: 300px;
+    width: 250px;
     padding: 12px 12px 2rem 12px;
     border-radius: 6px;
     background-color: white;
@@ -47,4 +46,24 @@
     width: 100%;
     height: 160px;
     border-radius: 4px;
+}
+
+@media all and ( max-width: 1024px) {
+    .bottomPanel {
+        padding: 2rem 0;
+    }
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+    }
+}
+
+@media all and ( max-width: 768px) {
+    .cake-offering {
+        width: 80%;
+    }
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, auto);
+    }
 }

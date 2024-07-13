@@ -16,7 +16,7 @@ h3 {
 
   h4 {
     color: var(--color-black);
-    font-weight: bolder;
+    font-weight: bold;
     font-size: clamp(14px, 2vw, 18px);
   }
 
@@ -24,6 +24,12 @@ h3 {
     color: var(--color-000);
     font-weight: 400;
     font-size: clamp(14px, 2vw, 18px);
+  }
+
+  h6 {
+    color: var(--color-000);
+    font-weight: 400;
+    font-size: clamp(14px, 1vw, 16px);
   }
 
 a {

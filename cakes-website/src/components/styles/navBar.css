@@ -6,17 +6,17 @@ header {
     flex-direction: row;
     justify-content: space-around;
     background-color: var(--header-back);
-    font-family: "Varela Round", sans-serif;
+    font-family: "Harper", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.title {
+.logo {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.title img{
+.logo img{
     width: 200px;
     height: 80px;
 }
@@ -29,4 +29,11 @@ header {
     color: var( --font-color);
     font-size: clamp(14px, 2vw, 16px);
     gap: 1rem;
+}
+
+@media all and ( max-width: 425px) {
+    .logo img {
+        width: 100px;
+        height: 40px;
+    }
 }
