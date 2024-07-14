@@ -44,7 +44,7 @@ footer {
     gap: 8px;
 }
 
-@media all and ( max-width: 425px) {
+@media all and ( max-width: 475px) {
     .footer-cake {
         flex-direction: column;
         gap: 2rem;

@@ -14,10 +14,10 @@ const NavBar = () => {
                 <img src={img.logo} alt="server error" />
             </div>
             <div className="nav-container">
-                <span> Catalog </span>
-                <span> Cake </span>
+                <span> Catalogo </span>
+                <span> Torta </span>
                 <Link to="#">
-                    <span> Contact Us </span>
+                    <span> Contattaci </span>
                 </Link>
             </div>
         </header>            

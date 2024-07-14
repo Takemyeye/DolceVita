@@ -5,10 +5,10 @@ export function FooterUnit () {
     return (
         <div className="footer-container"> 
             <AboutUnit
-                text="Cakes"
+                text="Torte"
                 link="/catalog "
-                component1="Classic Cakes"
-                component2="Specialty Cakes"
+                component1="Torte classiche"
+                component2="Torte speciali"
             />
         </div>
     )
